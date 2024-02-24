@@ -36,10 +36,37 @@ li a {
 li.book a{
   background-color: #275238;
   color: white;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
+.background {
+  background-color: #A4CFB6;
+  height: 85vh;
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
 
+h1 {
+  margin-left: 25px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+p {
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+li.book2 a{
+  padding: 20px;
+  margin: 20px;
+  background-color: #275238;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+}
 
 /* Media Query */
 /* Laptop */
