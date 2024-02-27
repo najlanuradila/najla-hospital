@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 0;
 }
 
 code {
@@ -56,16 +59,144 @@ h1 {
 
 p {
   margin-left: 25px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 li.book2 a{
-  padding: 20px;
+  padding: 15px;
   margin: 20px;
   background-color: #275238;
   color: white;
-  border-radius: 25px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.section2{
+  margin-top: 170px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+td:last-child {
+  padding-left: 300px; 
   font-size: 20px;
+  padding-top: 20px;
+}
+
+td:first-child {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+th{
+  font-size: 20px;
+}
+
+/* .post {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.img-thumb {
+  width: 200px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+.img-thumb img {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.content {
+  position: relative;
+  top: 170px;
+  right: 220px;
+}
+
+.content p.title {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d4a6e;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content p.desc {
+  margin: 0px;
+  font-size: 16px;
+  color: #4a4a4a;
+  text-align: center;
+  width: 12em;
+} */
+
+div.gallery {
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  background-color: #F3F3F3;
+  margin-top: 75px;
+  margin-right: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.title {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book3 {
+  text-align: center;
+}
+
+.book3 a {
+  display: inline-block;
+  padding: 15px;
+  background-color: #275238; /* Contoh warna latar belakang */
+  color: #ffffff; /* Contoh warna teks */
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+/* Opsi: Memberikan gaya tambahan untuk efek hover */
+.book3 a:hover {
+  background-color: rgba(39, 82, 56, 85%); /* Contoh warna latar belakang saat hover */
+
 }
 
 /* Media Query */
